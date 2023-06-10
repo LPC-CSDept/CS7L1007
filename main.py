@@ -1,10 +1,11 @@
 
 class Student:
     numofStudent = 0
-
+    """
     ########################################
-    # Code your program here
+    Code Your Program here
     ########################################
+    """
 
     def __str__(self):
         strval = f'Name: {self._name:>10} \t Scores: '
